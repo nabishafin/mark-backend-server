@@ -10,7 +10,7 @@ const sendMessage = asyncHandler(async (req, res) => {
 
   res.status(200).json({
     success: true,
-    message: 'তোমার মেসেজ পাঠানো হয়েছে ✅ / Your message has been sent successfully.',
+    message: 'Your message has been sent successfully.',
     messageId,
   });
 });
