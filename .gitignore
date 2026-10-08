@@ -1,6 +1,5 @@
 node_modules/
 npm-debug.log*
-config.bat
 
 # Environment files (re-added after malware removal)
 .env
